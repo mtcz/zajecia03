@@ -171,34 +171,3 @@ int main(){
 	cin.get();
 	return 0;
 }
-//#include <iostream>
-//#include <string>
-//#include <fstream>
-//using namespace std;
-//
-//int main(){
-//	string zmienna;
-//	ifstream plikOdczyt;
-//	ofstream plikZapis;
-//	plikZapis.open("C:\\cpp\\plik.txt");
-//	if (plikZapis.good() == true) cout << "Otworzyl sie plik";
-//	else cout << "nie otworzyl sie plik";
-//	//getline(plikOdczyt, zmienna);
-//	for (int i = 0; i < 100; i++)
-//	{
-//		plikZapis << i << endl;
-//	}
-//	plikZapis.close();
-//	plikOdczyt.open("C:\\cpp\\plik.txt");
-//	if (plikOdczyt.good() == true) cout << "Otworzyl sie plik";
-//	else cout << "nie otworzyl sie plik";
-//	for (int i = 0; i < 100; i++)
-//	{
-//		getline(plikOdczyt, zmienna);
-//		cout << zmienna<<endl;
-//	}
-//	plikZapis.close();
-//	cin.get();
-//	cin.get();
-//	return 0;
-//}
